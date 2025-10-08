@@ -10,12 +10,21 @@ Displaying the linked list
 Searching for an element
 Counting the number of nodes
 Reverse display using recursion
+
 🛠 Project Structure
-📂 LinkedList_Project ├── 📄 .gitignore # Excludes compiled files (.exe, .o) from Git tracking ├── 📄 README.md # Project documentation ├── 📄 llist.h # Header file containing function prototypes ├── 📄 llist.c # Source file with function implementations ├── 📄 Lmain.c # Main driver file to test Linked List operations ├── 📄 LICENSE # (Optional) Open-source license for the project
+📂 LinkedList_Project
+├── 📄 .gitignore # Excludes compiled files (.exe, .o) from Git tracking 
+├── 📄 README.md # Project documentation 
+├── 📄 llist.h # Header file containing function prototypes 
+├── 📄 llist.c # Source file with function implementations 
+├── 📄 Lmain.c # Main driver file to test Linked List operations 
 
-🔧 Compilation & Execution For Linux/macOS gcc Lmain.c llist.c -o linkedlist ./linkedlist
+🔧 Compilation & Execution For Linux/macOS
+gcc Lmain.c llist.c -o linkedlist
+./linkedlist
 
-For Windows (MinGW) gcc Lmain.c llist.c -o linkedlist.exe linkedlist.exe
+For Windows (MinGW) gcc Lmain.c llist.c -o linkedlist.exe 
+linkedlist.exe
 
 📝 Usage Run the program and follow the menu-driven interface to perform different operations on the linked list.
 
